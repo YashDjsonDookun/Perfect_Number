@@ -2,7 +2,6 @@ class Solution(object):
   def checkPerfectNumber(self, num):
     # Fill this in.
     self.num = num
-    lst = []
     sum_lst = 0
     for i in range(1,self.num):
         if (self.num % i == 0):
